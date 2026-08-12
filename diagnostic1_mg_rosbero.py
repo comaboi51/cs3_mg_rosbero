@@ -2,8 +2,6 @@ earth_weight = input("what is ur weight on earth (in kg)?")
 destination = input("where r u going? Mars, Jupiter or the Moon?")
 
 def calculate_space_weight(earth_weight, destination):
-    global(earth_weight)
-    global(destination)
     Mars = 0.38
     Jupiter = 2.34
     Moon = 0.16
@@ -17,4 +15,8 @@ def calculate_space_weight(earth_weight, destination):
         print("ERROR")
         return None
 
+
 calculate_space_weight(earth_weight,destination)
+final = calculate_space_weight
+print("ur space weight is:")
+print(final)
